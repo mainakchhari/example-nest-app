@@ -20,3 +20,4 @@ pnpm dev
 - Dark mode is auto-enabled if the user's system is set to dark mode
 - This project uses [`shadcn-ui`](https://ui.shadcn.com/docs/installation/next) bootstrapped with `npx shadcn-ui@latest init`. Please refer to [issue](https://github.com/shadcn-ui/ui/issues/755) if using `src` folder as project root
 - As an example, a dashboard is displayed as the home page. This dashboard is built using [`examples/dashboard`](https://ui.shadcn.com/examples/dashboard) as reference
+- **IMPORTANT**: This project has "output: export" configured in next.config.js. Please change to standalone as per your usecase
